@@ -6,13 +6,13 @@
 }
 
 body{
-    background-image: url('imagens/fundo.jpg');
-    background-size: 100%;
+    background: black url('imagens/fundo.jpg') center center no-repeat fixed;
+    background-size: cover;
 }
 
 header{
     background-color: rgba(199, 134, 12, 0.726);
-    background: linear-gradient(to bottom, rgba(199, 134, 12, 0.726), rgb(197, 92, 6));
+    background: linear-gradient(to bottom,rgba(231, 153, 7, 0.726), rgba(199, 134, 12, 0.726), rgb(197, 92, 6));
     color: white;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.445);
 }
