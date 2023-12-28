@@ -13,11 +13,14 @@ body{
 header{
     background-color:#632900;
     color: #D48821;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.493);
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.445);
 }
 
 header h1{
     font-size: 3em;
+    color:#FAA72B;
+    font-variant: small-caps;
     text-align: center;
     padding: 20px;
 }
@@ -35,7 +38,6 @@ main{
     background-color: #FFD6A2;
     padding: 40px;
     margin: auto;
-    border-radius: 0px 0px 10px 10px;
 }
 
 section{
@@ -44,7 +46,7 @@ section{
 }
 
 section img{
-    width: 50px;
+    width: 40px;
     border-radius: 50%;
     box-sizing: border-box;
     margin: 7px;
@@ -57,11 +59,22 @@ section img:hover{
 
 footer{
     color: white;
-    background-color: rgba(255, 0, 0, 0.664);
-    padding: 5px;
+    background-color:#89490A;
+    padding: 15px;
 }
 
-.chrys{
+footer p{
+    text-align: center;
     color: white;
     text-decoration: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    transition: 0.1s;
 }
