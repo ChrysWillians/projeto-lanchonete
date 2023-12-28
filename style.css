@@ -55,6 +55,20 @@ main{
     border-radius: 0px 0px 10px 10px;
 }
 
+section  img{
+    position: relative;
+    text-align: right;
+    top: -980px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+section img:hover{
+    border: 3px solid white;
+    
+}
+
 footer{
     color: white;
     background-color: rgba(255, 0, 0, 0.664);
