@@ -40,12 +40,12 @@ main{
     margin: auto;
 }
 
-section{
+section#social{
     background-color:   #632900;
     padding-top: 30px;
 }
 
-section img{
+section#social img{
     width: 40px;
     border-radius: 50%;
     box-sizing: border-box;
@@ -53,8 +53,47 @@ section img{
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.644);
 }
 
-section img:hover{
+section#social img:hover{
     border: 3px solid white;
+}
+
+section.hamburguer{
+    width: 100%;
+    height: 500px;
+    background: url('imagens/img-hamburguer.webp') no-repeat;
+    background-size: contain;
+    background-position: top right;
+    background-attachment: fixed;
+}
+
+section.hamburguer h1, section.hamburguer ul{
+    display: block;
+    font-weight: bolder;
+    background-color: rgba(136, 136, 136, 0.562);
+    color: #FAA72B;
+}
+
+section.hamburguer h1{
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.774);
+
+}
+
+section.esquerda{
+    text-align: left;
+
+}
+
+section.direita{
+    text-align: right;
+}
+
+ul.cardapio li{
+    padding-top: 45px;
+    padding-bottom: 8px;
+    font-size: 1.3em;
+    color: black;
 }
 
 footer{
